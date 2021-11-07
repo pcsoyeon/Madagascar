@@ -11,7 +11,9 @@ class OddDayTableViewCell: UITableViewCell {
     
     // MARK: - Properties
     
-    let beforeLine = CAShapeLayer()
+    let line = CAShapeLayer()
+    
+    
     let afterLine = CAShapeLayer()
     
     enum Size {
@@ -45,8 +47,8 @@ class OddDayTableViewCell: UITableViewCell {
         super.awakeFromNib()
         
         initViewRounding()
-        initOddPath()
-        initNextPath()
+        initPath()
+//        initNextPath()
     }
     
     // MARK: - Functions
@@ -55,23 +57,30 @@ class OddDayTableViewCell: UITableViewCell {
         propertyBgView.makeRounded(radius: propertyBgView.frame.height / 2)
     }
     
-    private func initOddPath() {
+    private func initPath() {
         let path = UIBezierPath()
         path.move(to: circle1StartPoint)
         
-        path.addArc(withCenter: circle1CenterPoint, radius: Size.radius, startAngle: -CGFloat.pi, endAngle: CGFloat.pi / 2, clockwise: false)
+        path.addArc(withCenter: circle1CenterPoint,
+                    radius: Size.radius,
+                    startAngle: -CGFloat.pi,
+                    endAngle: CGFloat.pi / 2,
+                    clockwise: false)
 
         path.addLine(to: circle2StartPoint)
 
-        path.addArc(withCenter: circle2CenterPoint, radius: Size.radius, startAngle: -CGFloat.pi / 2, endAngle: 0, clockwise: true)
+        path.addArc(withCenter: circle2CenterPoint,
+                    radius: Size.radius,
+                    startAngle: -CGFloat.pi / 2,
+                    endAngle: 0, clockwise: true)
         
-        beforeLine.fillMode = .forwards
-        beforeLine.fillColor = UIColor.clear.cgColor
-        beforeLine.lineWidth = 20.0
-        beforeLine.path = path.cgPath
-        beforeLine.strokeColor = UIColor.white.cgColor
+        line.fillMode = .forwards
+        line.fillColor = UIColor.clear.cgColor
+        line.lineWidth = 20.0
+        line.path = path.cgPath
+        line.strokeColor = UIColor.white.cgColor
         
-        self.contentView.layer.insertSublayer(beforeLine, at: 0)
+        self.contentView.layer.insertSublayer(line, at: 0)
     }
     
     private func initNextPath() {
@@ -100,13 +109,13 @@ class OddDayTableViewCell: UITableViewCell {
     private func setColorBySituation(situation: Int) {
         switch situation {
         case 0:
-            beforeLine.strokeColor = UIColor.white.cgColor
+            line.strokeColor = UIColor.white.cgColor
             propertyBgView.backgroundColor = UIColor.Grey1Bg
         case 1:
-            beforeLine.strokeColor = UIColor.Green.cgColor
+            line.strokeColor = UIColor.Green.cgColor
             propertyBgView.backgroundColor = UIColor.Green
         case 2: 
-            beforeLine.strokeColor = UIColor.Green.cgColor
+            line.strokeColor = UIColor.Green.cgColor
             propertyBgView.backgroundColor = UIColor.Green
         default:
             break

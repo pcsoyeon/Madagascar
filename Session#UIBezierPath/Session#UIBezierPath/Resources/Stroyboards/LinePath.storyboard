@@ -8,32 +8,20 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Pop Up View Controller-->
+        <!--Line Path View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="Y6W-OH-hqX" customClass="PopUpViewController" customModule="Session_UIBezierPath" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Y6W-OH-hqX" customClass="LinePathViewController" customModule="Session_UIBezierPath" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IZ7-Wn-Bmw" customClass="CardView" customModule="Session_UIBezierPath" customModuleProvider="target">
-                                <rect key="frame" x="16" y="229" width="382" height="448"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </view>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="IZ7-Wn-Bmw" firstAttribute="centerY" secondItem="vDu-zF-Fre" secondAttribute="centerY" id="2xI-Ce-1dh"/>
-                            <constraint firstItem="IZ7-Wn-Bmw" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="59H-XL-ZxU"/>
-                            <constraint firstItem="IZ7-Wn-Bmw" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.5" id="DRf-xH-Ie2"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="IZ7-Wn-Bmw" secondAttribute="trailing" constant="16" id="YHT-ws-fpl"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20" y="72"/>
+            <point key="canvasLocation" x="35" y="98"/>
         </scene>
     </scenes>
     <resources>

@@ -75,7 +75,7 @@ class FirstDayTableViewCell: UITableViewCell {
         }
         
         // n일차 label
-        dayCountLabel.text = "\(challenge.id)일차"
+        dayCountLabel.text = "시작해보자!!"
         // 미션 label
         descriptionLabel.text = challenge.title
         

@@ -11,6 +11,10 @@
 		92716998272EC6650005EC87 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92716997272EC6650005EC87 /* SceneDelegate.swift */; };
 		9271699F272EC6660005EC87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9271699E272EC6660005EC87 /* Assets.xcassets */; };
 		927169A2272EC6660005EC87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 927169A0272EC6660005EC87 /* LaunchScreen.storyboard */; };
+		92AE1B4A2733226F00183F54 /* LinePath.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92AE1B492733226F00183F54 /* LinePath.storyboard */; };
+		92AE1B4C2733228E00183F54 /* LinePathViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AE1B4B2733228E00183F54 /* LinePathViewController.swift */; };
+		92AE1B4E273322B600183F54 /* LinePathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AE1B4D273322B600183F54 /* LinePathView.swift */; };
+		92AE1B50273329F600183F54 /* TriangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AE1B4F273329F600183F54 /* TriangleView.swift */; };
 		92E8B153272FBBE100DC6289 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8B151272FBBE100DC6289 /* Course.swift */; };
 		92E8B154272FBBE100DC6289 /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8B152272FBBE100DC6289 /* Challenge.swift */; };
 		92E8B15B272FBBF200DC6289 /* FirstDayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8B155272FBBF200DC6289 /* FirstDayTableViewCell.swift */; };
@@ -39,6 +43,10 @@
 		9271699E272EC6660005EC87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		927169A1272EC6660005EC87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		927169A3272EC6660005EC87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92AE1B492733226F00183F54 /* LinePath.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LinePath.storyboard; sourceTree = "<group>"; };
+		92AE1B4B2733228E00183F54 /* LinePathViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinePathViewController.swift; sourceTree = "<group>"; };
+		92AE1B4D273322B600183F54 /* LinePathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinePathView.swift; sourceTree = "<group>"; };
+		92AE1B4F273329F600183F54 /* TriangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleView.swift; sourceTree = "<group>"; };
 		92E8B151272FBBE100DC6289 /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		92E8B152272FBBE100DC6289 /* Challenge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
 		92E8B155272FBBF200DC6289 /* FirstDayTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstDayTableViewCell.swift; sourceTree = "<group>"; };
@@ -162,6 +170,7 @@
 				92E8B16C272FBC7600DC6289 /* Course.storyboard */,
 				927169A0272EC6660005EC87 /* LaunchScreen.storyboard */,
 				92E8B17D272FD0A800DC6289 /* PopUp.storyboard */,
+				92AE1B492733226F00183F54 /* LinePath.storyboard */,
 			);
 			path = Stroyboards;
 			sourceTree = "<group>";
@@ -193,6 +202,7 @@
 			children = (
 				92E8B166272FBC2D00DC6289 /* CourseViewController.swift */,
 				92E8B17F272FD0F100DC6289 /* PopUpViewController.swift */,
+				92AE1B4B2733228E00183F54 /* LinePathViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -202,6 +212,8 @@
 			children = (
 				92E8B184272FD27500DC6289 /* CardView.swift */,
 				92E8B186272FD31600DC6289 /* ThunderView.swift */,
+				92AE1B4D273322B600183F54 /* LinePathView.swift */,
+				92AE1B4F273329F600183F54 /* TriangleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -265,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92E8B15C272FBBF200DC6289 /* OddDayTableViewCell.xib in Resources */,
+				92AE1B4A2733226F00183F54 /* LinePath.storyboard in Resources */,
 				92E8B15F272FBBF200DC6289 /* FirstDayTableViewCell.xib in Resources */,
 				92E8B15E272FBBF200DC6289 /* EvenDayTableViewCell.xib in Resources */,
 				92E8B17E272FD0A800DC6289 /* PopUp.storyboard in Resources */,
@@ -285,6 +298,7 @@
 				92E8B185272FD27500DC6289 /* CardView.swift in Sources */,
 				92E8B187272FD31600DC6289 /* ThunderView.swift in Sources */,
 				92E8B153272FBBE100DC6289 /* Course.swift in Sources */,
+				92AE1B4E273322B600183F54 /* LinePathView.swift in Sources */,
 				92E8B154272FBBE100DC6289 /* Challenge.swift in Sources */,
 				92E8B15D272FBBF200DC6289 /* EvenDayTableViewCell.swift in Sources */,
 				92E8B173272FC08B00DC6289 /* Xib.swift in Sources */,
@@ -293,9 +307,11 @@
 				92E8B175272FC4AE00DC6289 /* ViewController.swift in Sources */,
 				92E8B180272FD0F100DC6289 /* PopUpViewController.swift in Sources */,
 				92E8B160272FBBF200DC6289 /* OddDayTableViewCell.swift in Sources */,
+				92AE1B4C2733228E00183F54 /* LinePathViewController.swift in Sources */,
 				92716996272EC6650005EC87 /* AppDelegate.swift in Sources */,
 				92716998272EC6650005EC87 /* SceneDelegate.swift in Sources */,
 				92E8B15B272FBBF200DC6289 /* FirstDayTableViewCell.swift in Sources */,
+				92AE1B50273329F600183F54 /* TriangleView.swift in Sources */,
 				92E8B163272FBC0400DC6289 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,7 +458,7 @@
 				INFOPLIST_FILE = "Session#UIBezierPath/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = PopUp;
+				INFOPLIST_KEY_UIMainStoryboardFile = LinePath;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +486,7 @@
 				INFOPLIST_FILE = "Session#UIBezierPath/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = PopUp;
+				INFOPLIST_KEY_UIMainStoryboardFile = LinePath;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
