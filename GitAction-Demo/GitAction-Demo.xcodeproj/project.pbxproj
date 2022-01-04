@@ -16,20 +16,10 @@
 		92853CE62784E7BC00B473ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92853CE52784E7BC00B473ED /* Assets.xcassets */; };
 		92853CE92784E7BC00B473ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92853CE72784E7BC00B473ED /* LaunchScreen.storyboard */; };
 		92853CF42784E7BC00B473ED /* GitAction_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92853CF32784E7BC00B473ED /* GitAction_DemoTests.swift */; };
-		92853CFE2784E7BC00B473ED /* GitAction_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92853CFD2784E7BC00B473ED /* GitAction_DemoUITests.swift */; };
-		92853D002784E7BC00B473ED /* GitAction_DemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92853CFF2784E7BC00B473ED /* GitAction_DemoUITestsLaunchTests.swift */; };
-		97C09033607EBA4FC7F69466 /* Pods_GitAction_Demo_GitAction_DemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 383069BA1470046147338A4D /* Pods_GitAction_Demo_GitAction_DemoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		92853CF02784E7BC00B473ED /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 92853CD12784E7BA00B473ED /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 92853CD82784E7BA00B473ED;
-			remoteInfo = "GitAction-Demo";
-		};
-		92853CFA2784E7BC00B473ED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 92853CD12784E7BA00B473ED /* Project object */;
 			proxyType = 1;
@@ -54,9 +44,6 @@
 		92853CEA2784E7BC00B473ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92853CEF2784E7BC00B473ED /* GitAction-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GitAction-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92853CF32784E7BC00B473ED /* GitAction_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitAction_DemoTests.swift; sourceTree = "<group>"; };
-		92853CF92784E7BC00B473ED /* GitAction-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GitAction-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		92853CFD2784E7BC00B473ED /* GitAction_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitAction_DemoUITests.swift; sourceTree = "<group>"; };
-		92853CFF2784E7BC00B473ED /* GitAction_DemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitAction_DemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9F877B24568B5F0A8D02E17D /* Pods_GitAction_DemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitAction_DemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC4E134EA9D07E9142972ABD /* Pods-GitAction-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitAction-Demo.release.xcconfig"; path = "Target Support Files/Pods-GitAction-Demo/Pods-GitAction-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		CCB9C838B738BCAB163D63C7 /* Pods-GitAction-DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitAction-DemoTests.debug.xcconfig"; path = "Target Support Files/Pods-GitAction-DemoTests/Pods-GitAction-DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,14 +64,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2263BA710504B3E2F92F4920 /* Pods_GitAction_DemoTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		92853CF62784E7BC00B473ED /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				97C09033607EBA4FC7F69466 /* Pods_GitAction_Demo_GitAction_DemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,7 +88,6 @@
 			children = (
 				92853CDB2784E7BA00B473ED /* GitAction-Demo */,
 				92853CF22784E7BC00B473ED /* GitAction-DemoTests */,
-				92853CFC2784E7BC00B473ED /* GitAction-DemoUITests */,
 				92853CDA2784E7BA00B473ED /* Products */,
 				8704BDB53938F9188685D2AC /* Pods */,
 				A983539FA3A2C3E5EFB050D0 /* Frameworks */,
@@ -121,7 +99,6 @@
 			children = (
 				92853CD92784E7BA00B473ED /* GitAction-Demo.app */,
 				92853CEF2784E7BC00B473ED /* GitAction-DemoTests.xctest */,
-				92853CF92784E7BC00B473ED /* GitAction-DemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,15 +120,6 @@
 				92853CF32784E7BC00B473ED /* GitAction_DemoTests.swift */,
 			);
 			path = "GitAction-DemoTests";
-			sourceTree = "<group>";
-		};
-		92853CFC2784E7BC00B473ED /* GitAction-DemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				92853CFD2784E7BC00B473ED /* GitAction_DemoUITests.swift */,
-				92853CFF2784E7BC00B473ED /* GitAction_DemoUITestsLaunchTests.swift */,
-			);
-			path = "GitAction-DemoUITests";
 			sourceTree = "<group>";
 		};
 		92853D0C2784EA9F00B473ED /* App */ = {
@@ -232,26 +200,6 @@
 			productReference = 92853CEF2784E7BC00B473ED /* GitAction-DemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		92853CF82784E7BC00B473ED /* GitAction-DemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 92853D092784E7BC00B473ED /* Build configuration list for PBXNativeTarget "GitAction-DemoUITests" */;
-			buildPhases = (
-				0EDF4DE6F5AAF46FAF76CD93 /* [CP] Check Pods Manifest.lock */,
-				92853CF52784E7BC00B473ED /* Sources */,
-				92853CF62784E7BC00B473ED /* Frameworks */,
-				92853CF72784E7BC00B473ED /* Resources */,
-				80605B8453AF0ECD23BCE1C2 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				92853CFB2784E7BC00B473ED /* PBXTargetDependency */,
-			);
-			name = "GitAction-DemoUITests";
-			productName = "GitAction-DemoUITests";
-			productReference = 92853CF92784E7BC00B473ED /* GitAction-DemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -266,10 +214,6 @@
 						CreatedOnToolsVersion = 13.2.1;
 					};
 					92853CEE2784E7BC00B473ED = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 92853CD82784E7BA00B473ED;
-					};
-					92853CF82784E7BC00B473ED = {
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = 92853CD82784E7BA00B473ED;
 					};
@@ -290,7 +234,6 @@
 			targets = (
 				92853CD82784E7BA00B473ED /* GitAction-Demo */,
 				92853CEE2784E7BC00B473ED /* GitAction-DemoTests */,
-				92853CF82784E7BC00B473ED /* GitAction-DemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -313,38 +256,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92853CF72784E7BC00B473ED /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0EDF4DE6F5AAF46FAF76CD93 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GitAction-Demo-GitAction-DemoUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		70A536C7E98D92229F2EC9D3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -360,23 +274,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GitAction-Demo/Pods-GitAction-Demo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		80605B8453AF0ECD23BCE1C2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GitAction-Demo-GitAction-DemoUITests/Pods-GitAction-Demo-GitAction-DemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GitAction-Demo-GitAction-DemoUITests/Pods-GitAction-Demo-GitAction-DemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GitAction-Demo-GitAction-DemoUITests/Pods-GitAction-Demo-GitAction-DemoUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F38F1084366DE7B1FB96C87C /* [CP] Check Pods Manifest.lock */ = {
@@ -444,15 +341,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92853CF52784E7BC00B473ED /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				92853D002784E7BC00B473ED /* GitAction_DemoUITestsLaunchTests.swift in Sources */,
-				92853CFE2784E7BC00B473ED /* GitAction_DemoUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -460,11 +348,6 @@
 			isa = PBXTargetDependency;
 			target = 92853CD82784E7BA00B473ED /* GitAction-Demo */;
 			targetProxy = 92853CF02784E7BC00B473ED /* PBXContainerItemProxy */;
-		};
-		92853CFB2784E7BC00B473ED /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 92853CD82784E7BA00B473ED /* GitAction-Demo */;
-			targetProxy = 92853CFA2784E7BC00B473ED /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -720,58 +603,6 @@
 			};
 			name = Release;
 		};
-		92853D0A2784E7BC00B473ED /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C4CF8B09B55DD4CE91450F4 /* Pods-GitAction-Demo-GitAction-DemoUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4QG3GC35LA;
-				GENERATE_INFOPLIST_FILE = YES;
-				"LD_RUNPATH_SEARCH_PATHS[arch=*]" = (
-					"$(inherited)",
-					/usr/lib/swift,
-					"\"$(PLATFORM_DIR)/Developer/Library/Frameworks\"",
-					"'@executable_path/Frameworks'",
-					"'@loader_path/Frameworks'",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "soyeon.GitAction-DemoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "GitAction-Demo";
-			};
-			name = Debug;
-		};
-		92853D0B2784E7BC00B473ED /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DE259B12377F4C4EDFC0728 /* Pods-GitAction-Demo-GitAction-DemoUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4QG3GC35LA;
-				GENERATE_INFOPLIST_FILE = YES;
-				"LD_RUNPATH_SEARCH_PATHS[arch=*]" = (
-					"$(inherited)",
-					/usr/lib/swift,
-					"\"$(PLATFORM_DIR)/Developer/Library/Frameworks\"",
-					"'@executable_path/Frameworks'",
-					"'@loader_path/Frameworks'",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "soyeon.GitAction-DemoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "GitAction-Demo";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -798,15 +629,6 @@
 			buildConfigurations = (
 				92853D072784E7BC00B473ED /* Debug */,
 				92853D082784E7BC00B473ED /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		92853D092784E7BC00B473ED /* Build configuration list for PBXNativeTarget "GitAction-DemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				92853D0A2784E7BC00B473ED /* Debug */,
-				92853D0B2784E7BC00B473ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
