@@ -17,4 +17,4 @@ jobs:
     - name: Run tests
       run: |
         pod install --repo-update --clean-install --project-directory=GitAction-Demo/
-        xcodebuild test -workspace './GitAction-Demo/GitAction-Demo.xcworkspace' -scheme 'GitAction-DemoTests' -destination 'platform=iOS Simulator,name=iPhone 11 Pro Max,OS=13.0'
+        xcodebuild test -workspace './GitAction-Demo/GitAction-Demo.xcworkspace' -scheme 'GitAction-DemoTests' -destination 'platform=iOS Simulator,name=iPhone 11 Pro Max,OS=latest'
