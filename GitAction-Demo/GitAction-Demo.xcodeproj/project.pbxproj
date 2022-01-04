@@ -729,6 +729,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4QG3GC35LA;
 				GENERATE_INFOPLIST_FILE = YES;
+				"LD_RUNPATH_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					/usr/lib/swift,
+					"\"$(PLATFORM_DIR)/Developer/Library/Frameworks\"",
+					"'@executable_path/Frameworks'",
+					"'@loader_path/Frameworks'",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "soyeon.GitAction-DemoUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -748,6 +755,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4QG3GC35LA;
 				GENERATE_INFOPLIST_FILE = YES;
+				"LD_RUNPATH_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					/usr/lib/swift,
+					"\"$(PLATFORM_DIR)/Developer/Library/Frameworks\"",
+					"'@executable_path/Frameworks'",
+					"'@loader_path/Frameworks'",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "soyeon.GitAction-DemoUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
