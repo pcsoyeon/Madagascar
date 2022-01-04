@@ -99,12 +99,9 @@
 		92853CDB2784E7BA00B473ED /* GitAction-Demo */ = {
 			isa = PBXGroup;
 			children = (
-				92853CDC2784E7BA00B473ED /* AppDelegate.swift */,
-				92853CDE2784E7BA00B473ED /* SceneDelegate.swift */,
-				92853CE02784E7BA00B473ED /* ViewController.swift */,
-				92853CE22784E7BA00B473ED /* Main.storyboard */,
-				92853CE52784E7BC00B473ED /* Assets.xcassets */,
-				92853CE72784E7BC00B473ED /* LaunchScreen.storyboard */,
+				92853D0E2784EAAE00B473ED /* Resources */,
+				92853D0D2784EAA800B473ED /* Sources */,
+				92853D0C2784EA9F00B473ED /* App */,
 				92853CEA2784E7BC00B473ED /* Info.plist */,
 			);
 			path = "GitAction-Demo";
@@ -125,6 +122,33 @@
 				92853CFF2784E7BC00B473ED /* GitAction_DemoUITestsLaunchTests.swift */,
 			);
 			path = "GitAction-DemoUITests";
+			sourceTree = "<group>";
+		};
+		92853D0C2784EA9F00B473ED /* App */ = {
+			isa = PBXGroup;
+			children = (
+				92853CDC2784E7BA00B473ED /* AppDelegate.swift */,
+				92853CDE2784E7BA00B473ED /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		92853D0D2784EAA800B473ED /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				92853CE02784E7BA00B473ED /* ViewController.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		92853D0E2784EAAE00B473ED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				92853CE22784E7BA00B473ED /* Main.storyboard */,
+				92853CE52784E7BC00B473ED /* Assets.xcassets */,
+				92853CE72784E7BC00B473ED /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
