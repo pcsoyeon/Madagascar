@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  GitAction-Demo
+//  GitAction
 //
 //  Created by soyeon on 2022/01/05.
 //
@@ -11,6 +11,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        // Do any additional setup after loading the view.
     }
+
+
 }
 

@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  GitAction-Demo
+//  GitAction
 //
 //  Created by soyeon on 2022/01/05.
 //
