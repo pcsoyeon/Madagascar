@@ -99,10 +99,10 @@
 		92853CDB2784E7BA00B473ED /* GitAction-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				92853CEA2784E7BC00B473ED /* Info.plist */,
+				92853D0C2784EA9F00B473ED /* App */,
 				92853D0E2784EAAE00B473ED /* Resources */,
 				92853D0D2784EAA800B473ED /* Sources */,
-				92853D0C2784EA9F00B473ED /* App */,
-				92853CEA2784E7BC00B473ED /* Info.plist */,
 			);
 			path = "GitAction-Demo";
 			sourceTree = "<group>";
