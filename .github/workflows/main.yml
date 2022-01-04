@@ -2,9 +2,9 @@ name: Swift
 
 on:
   push:
-    branches: [ feat/*, develop ]
+    branches: [ feat/*, main ]
   pull_request:
-    branches: [ develop ]
+    branches: [ main ]
 
 jobs:
   build:
