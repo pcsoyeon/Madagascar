@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  GitAction
+//  After-iOS
 //
 //  Created by soyeon on 2022/01/05.
 //
